@@ -1,10 +1,10 @@
 <template>
   <button
-      class="mc-button"
+      class="cjn-button"
       :disabled="disabled"
       @click="handleClick"
       :class="[
-      `mc-button--${type}`,
+      `cjn-button--${type}`,
       {
         'is-plain': plain,
         'is-round': round,
@@ -19,7 +19,7 @@
 </template>
 <script>
 export default {
-  name: 'McButton',
+  name: 'CjnButton',
   props: {
     type: {
       type: String,
@@ -54,7 +54,7 @@ export default {
 }
 </script>
 <style lang='scss'>
-.mc-button {
+.cjn-button {
   display: inline-block;
   line-height: 1;
   white-space: nowrap;
@@ -212,7 +212,7 @@ export default {
     padding: 12px;
   }
 }
-.mc-button [class*=mc-icon-]+span {
+.cjn-button [class*=cjn-icon-]+span {
   margin-left: 5px;
 }
 </style>

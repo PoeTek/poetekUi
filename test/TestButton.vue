@@ -1,32 +1,32 @@
 <template>
   <div class="app">
     <div class="row">
-      <mc-button>按钮</mc-button>
-      <mc-button type="primary">按钮</mc-button>
-      <mc-button type="success">按钮</mc-button>
-      <mc-button type="info">按钮</mc-button>
-      <mc-button type="warning">按钮</mc-button>
+      <cjn-button>按钮</cjn-button>
+      <cjn-button type="primary">按钮</cjn-button>
+      <cjn-button type="success">按钮</cjn-button>
+      <cjn-button type="info">按钮</cjn-button>
+      <cjn-button type="warning">按钮</cjn-button>
     </div>
     <div class="row">
-      <mc-button plain>按钮</mc-button>
-      <mc-button plain type="primary">按钮</mc-button>
-      <mc-button plain type="success">按钮</mc-button>
-      <mc-button plain type="info">按钮</mc-button>
-      <mc-button plain type="warning">按钮</mc-button>
+      <cjn-button plain>按钮</cjn-button>
+      <cjn-button plain type="primary">按钮</cjn-button>
+      <cjn-button plain type="success">按钮</cjn-button>
+      <cjn-button plain type="info">按钮</cjn-button>
+      <cjn-button plain type="warning">按钮</cjn-button>
     </div>
     <div class="row">
-      <mc-button round plain>按钮</mc-button>
-      <mc-button round plain type="primary">按钮</mc-button>
-      <mc-button round plain type="success">按钮</mc-button>
-      <mc-button round plain type="info">按钮</mc-button>
-      <mc-button round plain type="warning">按钮</mc-button>
+      <cjn-button round plain>按钮</cjn-button>
+      <cjn-button round plain type="primary">按钮</cjn-button>
+      <cjn-button round plain type="success">按钮</cjn-button>
+      <cjn-button round plain type="info">按钮</cjn-button>
+      <cjn-button round plain type="warning">按钮</cjn-button>
     </div>
     <div class="row">
-      <mc-button circle>OK</mc-button>
-      <mc-button circle type="primary">OK</mc-button>
-      <mc-button circle type="success">OK</mc-button>
-      <mc-button circle type="info">OK</mc-button>
-      <mc-button circle type="warning">OK</mc-button>
+      <cjn-button circle>OK</cjn-button>
+      <cjn-button circle type="primary">OK</cjn-button>
+      <cjn-button circle type="success">OK</cjn-button>
+      <cjn-button circle type="info">OK</cjn-button>
+      <cjn-button circle type="warning">OK</cjn-button>
     </div>
   </div>
 </template>
@@ -55,7 +55,7 @@ export default {
 .row {
   padding: 10px 0;
 }
-.mc-button {
+.cjn-button {
   margin-left: 10px;
 }
 </style>
